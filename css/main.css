@@ -97,7 +97,7 @@ textarea {
 
 
 html {
-  background-color: #f09f9c;
+  background-color: #483455;
   height: 100%;
   width: 100%;
 }
@@ -107,7 +107,7 @@ body {
   padding: 2em;
   font-size: 1em;
   height: 100%;
-  color:#270f36;
+  color:#c76b98;
 }
 
 p{
@@ -118,7 +118,7 @@ p{
     align-items: center;
     justify-content: space-between;
     margin-bottom: 6em;
-    color: #632b6c;
+    color: #c76b98;
     
 }
 .name{
@@ -158,10 +158,9 @@ img{
   display: flex;
   flex-flow: row wrap;  
   justify-content: space-between;
-  border-top: 1px solid whitesmoke; 
-  border-bottom: 1px solid whitesmoke;
+  border-top: 1px solid #f09f9c; 
+  border-bottom: 1px solid #f09f9c;
   align-items: center;
-  border-color: #c76b98;
 }
 
 .div-1, .div-2, .div-3 {
@@ -173,7 +172,8 @@ img{
 p span {
     font-weight: 700;
     font-size: 1.3em;
-    color: #632b6c
+    color: #c76b98;
+
 }
 
 /*---------- FOOTER ----------*/
@@ -280,10 +280,10 @@ footer img{
         }
 
         .div-2 p{
-            border-right: .5px solid whitesmoke;
-            border-left: .5px solid whitesmoke;
+            border-right: .5px solid ;
+            border-left: .5px solid ;
             padding: 1.4em;
-            border-color: #c76b98;
+            border-color: #f09f9c;
        }
     }  
 
