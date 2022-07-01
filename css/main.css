@@ -122,7 +122,7 @@ p{
     display: flex;
     flex-flow: row wrap; 
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     margin-bottom: 6em;
     color: #c76b98;
     
@@ -166,6 +166,7 @@ img{
 }
 
 .div-1, .div-2, .div-3 {
+  line-height: 1.5em;
   height: auto;
   display: flex;
   align-items: center;
@@ -277,7 +278,7 @@ footer img{
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
-   @media all and (min-width: 1200px) {
+   @media all and (min-width: 1200px) and (max-width: 2559px){
         .div-1, .div-2, .div-3 {
         width: 30%;
         }
@@ -288,8 +289,49 @@ footer img{
             padding: 1.4em;
             border-color: #f09f9c;
        }
-    }  
+      
+        .name{
+            font-size: 2em;
+        }
 
+        p{
+            font-size: 1.5em;
+        }
+    }  
+    
+    @media all and (min-width: 2560px) {
+
+        .name{
+            font-size: 4em;
+        }
+    
+        p{
+            font-size: 3em;
+            line-height: 55px;
+        }
+
+       
+        .div-1, .div-2, .div-3 {
+            width: 30%;
+        }
+
+        .div-2 p{
+            border-right: .5px solid;
+            border-left: .5px solid;
+            padding: 1.4em;
+            border-color: #f09f9c;
+        }
+
+        .image{
+            height: 282px;
+            width: 293px;
+        }
+        
+        img{
+            height: 246px;
+            width: 269px;
+        }
+    }
 @media print,
        (-webkit-min-device-pixel-ratio: 1.25),
        (min-resolution: 1.25dppx),
