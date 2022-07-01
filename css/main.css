@@ -110,13 +110,19 @@ body {
   color:#c76b98;
 }
 
+header {
+    margin-bottom: 50px;
+}
+
 p{
     font-size: 1em;
+    
 }
 .flexbox{
     display: flex;
+    flex-flow: row wrap; 
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     margin-bottom: 6em;
     color: #c76b98;
     
@@ -126,15 +132,12 @@ p{
     align-items: center;
     justify-content: center;
     font-size: 1em;
-    margin-left: 5em;
     font-family: 'Dancing Script', cursive;    
 }
 
 .image{
     display: flex;
     justify-content: center;
-    margin-right: 5em;
-    margin-top: 3em;
     height: 148px;
     background-color: white;
     width: 149px;
