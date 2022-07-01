@@ -181,20 +181,41 @@ p span {
 }
 
 /*---------- FOOTER ----------*/
-footer ul {
+.flexbox2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.invite{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav ul {
     list-style: none;
-    padding-left: 0;
+    padding: 0;
     display: flex;
     justify-content: left;
     align-items: center;
-
 }
 
-footer ul li {
-    display: inline-block;
-    padding-right: 20px;
+.nav ul li {
+    padding-right: 10px;
 }        
-footer img{
+.nav img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 29px;
     width: 29px;
 }
@@ -278,7 +299,17 @@ footer img{
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
-   @media all and (min-width: 1200px) and (max-width: 2559px){
+   @media all and (min-width: 768px) and (max-width: 1200px){
+        .name{
+            font-size: 2em;
+        }
+
+        p{
+            font-size: 1.1em;
+        }
+    } 
+
+   @media all and (min-width: 1201px) and (max-width: 2559px){
         .div-1, .div-2, .div-3 {
         width: 30%;
         }
@@ -296,6 +327,12 @@ footer img{
 
         p{
             font-size: 1.5em;
+            line-height: 39px;
+        }
+
+        footer img{
+            height: 39px;
+            width: 39px;
         }
     }  
     
@@ -307,7 +344,7 @@ footer img{
     
         p{
             font-size: 3em;
-            line-height: 55px;
+            line-height: 63px;
         }
 
        
