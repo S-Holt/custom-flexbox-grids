@@ -210,7 +210,7 @@ p span {
 }
 
 .nav ul li {
-    padding-right: 10px;
+    padding-right: 20px;
 }        
 .nav img{
     display: flex;
@@ -330,6 +330,13 @@ p span {
             line-height: 39px;
         }
 
+        .wrapper{
+            align-items: flex-start;
+        }
+        .div-1, .div-3{
+            margin-top: 66px;
+        }
+        
         footer img{
             height: 39px;
             width: 39px;
@@ -347,7 +354,12 @@ p span {
             line-height: 63px;
         }
 
-       
+        .wrapper{
+            align-items: flex-start;
+        }
+        .div-1, .div-3{
+            margin-top: 66px;
+        }
         .div-1, .div-2, .div-3 {
             width: 30%;
         }
@@ -360,15 +372,23 @@ p span {
         }
 
         .image{
-            height: 282px;
-            width: 293px;
+            height: 426px;
+            width: 480px;
         }
         
         img{
-            height: 246px;
-            width: 269px;
+            height: 341px;
+            width: 420px;
+        }
+
+        .nav img{
+            
+            height: 60px;
+            width: 60px;
         }
     }
+
+    
 @media print,
        (-webkit-min-device-pixel-ratio: 1.25),
        (min-resolution: 1.25dppx),
